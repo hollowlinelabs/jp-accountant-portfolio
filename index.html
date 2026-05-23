@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jakub Pabis — CMA</title>
+  <meta name="description" content="Jakub Pabis — Certified Management Accountant. Corporate finance, supplier payments, VAT compliance, and CFO support. Krakow, Poland.">
+  <meta name="author" content="Jakub Pabis">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== PRINT CV ===================== -->
+  <div class="print-only">
+    <div class="p-header">
+      <h1>Jakub Pabis</h1>
+      <p class="p-role">Certified Management Accountant (CMA)</p>
+      <p class="p-contact">jpabis@gmail.com · 53 346 41744 · Bartlomieja z Bydgoszczy 16, Krakow 85736, Poland</p>
+    </div>
+    <div class="p-section">
+      <h2>Summary</h2>
+      <p>Results-oriented CMA with 3+ years in corporate finance — supplier payments, financial statements, VAT compliance, and CFO decision support. M.Sc. Accounting & Finance (Stockholm School of Economics). Trilingual: Polish, English, French.</p>
+    </div>
+    <div class="p-section">
+      <h2>Experience</h2>
+      <div class="p-job"><div class="p-jh"><strong>Senior Accountant</strong><span>Aug 2017 – Jan 2019</span></div><div class="p-js">Accountancy Elite — Krakow, Poland</div><ul><li>Managed supplier payments and directed AP/AR processes across multiple client portfolios.</li><li>Maintained records, prepared financial statements, and organised confidential client files.</li><li>Conducted corporation tax calculations and led quarterly financial analysis reviews.</li></ul></div>
+      <div class="p-job"><div class="p-jh"><strong>Junior Accountant</strong><span>Jun 2016 – Aug 2017</span></div><div class="p-js">Devon Doctors Ltd — Krakow, Poland</div><ul><li>Managed daily account operations in line with company policies.</li><li>Collaborated with department heads in weekly planning meetings.</li><li>Recognised as Employee of the Month for outstanding performance.</li></ul></div>
+      <div class="p-job"><div class="p-jh"><strong>Finance Intern</strong><span>Jun 2011 – Aug 2011</span></div><div class="p-js">NBCUniversal Media, LLC — Newcastle, UK</div><ul><li>Assisted finance manager in daily operations and reporting.</li><li>Conducted financial analysis and market research for senior management.</li><li>Acknowledged by executives for exemplary performance.</li></ul></div>
+    </div>
+    <div class="p-cols">
+      <div class="p-section"><h2>Education</h2><ul><li><strong>M.Sc. Accounting & Finance</strong> — Stockholm School of Economics (2013–2015)</li><li><strong>B.S. Finance</strong> — University of Sydney (2009–2013)</li><li><strong>IB Diploma</strong> — International School of Krakow (2007–2009)</li></ul></div>
+      <div class="p-section"><h2>Skills & Certifications</h2><ul><li>Certified Management Accountant (CMA)</li><li>QuickBooks, Xero, Sage, FreshBooks, NetSuite</li><li>Microsoft Office Suite</li><li>Corporation Tax, VAT Compliance, AP/AR</li><li>Polish (Native) · English (Full) · French (Professional)</li></ul></div>
+    </div>
+  </div>
+
+  <!-- ===================== SCREEN UI ===================== -->
+  <div id="root">
+
+    <!-- NAV -->
+    <header class="nav" id="nav">
+      <div class="nav-left">
+        <a class="logo" href="#intro">JP.</a>
+      </div>
+      <nav class="nav-center" id="navMenu">
+        <a href="#about"        class="nl">About</a>
+        <a href="#experience"   class="nl">Experience</a>
+        <a href="#education"    class="nl">Education</a>
+        <a href="#skills"       class="nl">Skills</a>
+        <a href="#contact"      class="nl">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <button class="nav-cv" id="navCV">Download CV</button>
+        <button class="nav-burger" id="burger" aria-label="Toggle menu">
+          <svg width="20" height="14" viewBox="0 0 20 14" fill="none"><rect y="0" width="20" height="2" rx="1" fill="currentColor"/><rect y="6" width="20" height="2" rx="1" fill="currentColor"/><rect y="12" width="20" height="2" rx="1" fill="currentColor"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- ======================== HERO ======================== -->
+    <section id="intro" class="hero">
+
+      <!-- Left dark panel -->
+      <div class="hero-dark">
+        <div class="hero-dark-inner">
+          <div class="hero-tag">
+            <span class="tag-dot"></span>
+            <span>Certified Management Accountant</span>
+          </div>
+          <h1 class="hero-name">
+            <span class="hn-first">Jakub</span>
+            <span class="hn-last">Pabis</span>
+          </h1>
+          <p class="hero-desc">
+            Corporate finance professional with a decade of academic and hands-on experience across Poland, Sweden, Australia, and the UK.
+          </p>
+          <div class="hero-cta-row">
+            <a href="#contact" class="cta-solid">Let's Connect</a>
+            <a href="#experience" class="cta-line">View Experience</a>
+          </div>
+          <div class="hero-numbers">
+            <div class="hn-num">
+              <span class="num">3+</span>
+              <span class="lbl">Years Corporate Finance</span>
+            </div>
+            <div class="hn-sep"></div>
+            <div class="hn-num">
+              <span class="num">3</span>
+              <span class="lbl">Countries Worked In</span>
+            </div>
+            <div class="hn-sep"></div>
+            <div class="hn-num">
+              <span class="num">CMA</span>
+              <span class="lbl">Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right light panel with photo -->
+      <div class="hero-light">
+        <div class="hero-img-wrap">
+          <img src="assets/jakub_portrait.png" alt="Jakub Pabis" class="hero-photo">
+          <div class="hero-img-card">
+            <span class="hic-dot"></span>
+            <span>Open to new opportunities</span>
+          </div>
+          <div class="hero-img-badge">
+            <div class="hib-line">Stockholm School of Economics</div>
+            <div class="hib-line hib-sub">M.Sc. Accounting & Finance</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ======================== ABOUT ======================== -->
+    <section id="about" class="sec">
+      <div class="wrap">
+        <div class="sec-label fade-up">About</div>
+        <div class="about-grid">
+          <div class="about-col-l fade-up">
+            <h2 class="sec-h2">I make corporate<br><em>finances legible.</em></h2>
+          </div>
+          <div class="about-col-r fade-up delay-1">
+            <p>I'm Jakub — a Krakow-based Certified Management Accountant. My career has been shaped by three institutions across three countries: I studied Finance in Sydney, completed my masters in Stockholm, and have built my professional practice in Poland.</p>
+            <p>My expertise lies at the intersection of rigour and clarity — translating complex ledgers, VAT obligations, and supplier chains into clean, audit-ready financials that allow executives to make decisions with confidence.</p>
+            <p>Trilingual (Polish, English, French). Detail-obsessed. Deadline-driven.</p>
+            <div class="about-btns">
+              <button class="btn-dark" id="cvAbout">Download CV</button>
+              <a href="mailto:jpabis@gmail.com" class="btn-out">jpabis@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-facts fade-up delay-2">
+          <div class="fact">
+            <span class="fact-k">Location</span>
+            <span class="fact-v">Krakow, Poland</span>
+          </div>
+          <div class="fact">
+            <span class="fact-k">Phone</span>
+            <span class="fact-v">53 346 41744</span>
+          </div>
+          <div class="fact">
+            <span class="fact-k">Email</span>
+            <span class="fact-v">jpabis@gmail.com</span>
+          </div>
+          <div class="fact">
+            <span class="fact-k">Certification</span>
+            <span class="fact-v">CMA — Certified Management Accountant</span>
+          </div>
+          <div class="fact">
+            <span class="fact-k">Languages</span>
+            <span class="fact-v">Polish · English · French</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== EXPERIENCE ======================== -->
+    <section id="experience" class="sec sec-dark">
+      <div class="wrap">
+        <div class="sec-label sec-label-light fade-up">Experience</div>
+        <h2 class="sec-h2 sec-h2-light fade-up">Professional<br><em>History</em></h2>
+
+        <div class="xp-list">
+
+          <div class="xp-item fade-up">
+            <div class="xp-left">
+              <span class="xp-period">Aug 2017 – Jan 2019</span>
+              <span class="xp-company">Accountancy Elite<br><small>Krakow, Poland</small></span>
+            </div>
+            <div class="xp-divider"></div>
+            <div class="xp-right">
+              <h3 class="xp-role">Senior Accountant</h3>
+              <ul class="xp-pts">
+                <li>Managed supplier payments and directed accounts payable/receivable across multiple client portfolios.</li>
+                <li>Maintained accounting records, prepared financial statements, and organised confidential files.</li>
+                <li>Led corporation tax calculations and quarterly financial analysis reviews.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="xp-item fade-up delay-1">
+            <div class="xp-left">
+              <span class="xp-period">Jun 2016 – Aug 2017</span>
+              <span class="xp-company">Devon Doctors Ltd<br><small>Krakow, Poland</small></span>
+            </div>
+            <div class="xp-divider"></div>
+            <div class="xp-right">
+              <h3 class="xp-role">Junior Accountant</h3>
+              <ul class="xp-pts">
+                <li>Managed all aspects of daily account operations in line with company policies.</li>
+                <li>Collaborated with department heads in weekly meetings on financial planning and execution.</li>
+                <li>Recognised as <strong>Employee of the Month</strong> for outstanding performance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="xp-item fade-up delay-2">
+            <div class="xp-left">
+              <span class="xp-period">Jun 2011 – Aug 2011</span>
+              <span class="xp-company">NBCUniversal Media<br><small>Newcastle, UK</small></span>
+            </div>
+            <div class="xp-divider"></div>
+            <div class="xp-right">
+              <h3 class="xp-role">Finance Intern</h3>
+              <ul class="xp-pts">
+                <li>Assisted finance manager in overseeing daily finance and office operations.</li>
+                <li>Conducted financial analysis and market research; presented results to management.</li>
+                <li>Acknowledged by senior executives for exemplary performance.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== EDUCATION ======================== -->
+    <section id="education" class="sec">
+      <div class="wrap">
+        <div class="sec-label fade-up">Education</div>
+        <h2 class="sec-h2 fade-up">Academic<br><em>Background</em></h2>
+
+        <div class="edu-row">
+
+          <div class="edu-card fade-up">
+            <div class="edu-num">01</div>
+            <div class="edu-yr">2013 – 2015</div>
+            <h3 class="edu-degree">M.Sc. Accounting<br>& Finance</h3>
+            <div class="edu-school">Stockholm School of Economics</div>
+            <div class="edu-loc">Stockholm, Sweden</div>
+            <p class="edu-desc">Advanced financial analysis, budgeting, forecasting and risk management in international finance contexts.</p>
+          </div>
+
+          <div class="edu-card fade-up delay-1">
+            <div class="edu-num">02</div>
+            <div class="edu-yr">2009 – 2013</div>
+            <h3 class="edu-degree">B.S. Finance</h3>
+            <div class="edu-school">The University of Sydney</div>
+            <div class="edu-loc">Sydney, Australia</div>
+            <p class="edu-desc">Active in FinTech Society, Business Club, and university volleyball. Broad grounding in financial principles and markets.</p>
+          </div>
+
+          <div class="edu-card fade-up delay-2">
+            <div class="edu-num">03</div>
+            <div class="edu-yr">2007 – 2009</div>
+            <h3 class="edu-degree">IB Diploma<br>Programme</h3>
+            <div class="edu-school">International School of Krakow</div>
+            <div class="edu-loc">Krakow, Poland</div>
+            <p class="edu-desc">Grade 1 (Excellent) across all six IB subjects. Consistent academic excellence across sciences and humanities.</p>
+          </div>
+
+        </div>
+
+        <div class="certs-row fade-up delay-2">
+          <div class="cert-pill">
+            <span class="cert-icon">✦</span>
+            <div><strong>Certified Management Accountant</strong><span>CMA · Institute of Management Accountants</span></div>
+          </div>
+          <div class="cert-pill">
+            <span class="cert-icon">✦</span>
+            <div><strong>Sydney University FinTech Society</strong><span>Active Member</span></div>
+          </div>
+          <div class="cert-pill">
+            <span class="cert-icon">✦</span>
+            <div><strong>Sydney University Business Club</strong><span>Active Member</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== SKILLS ======================== -->
+    <section id="skills" class="sec sec-muted">
+      <div class="wrap">
+        <div class="sec-label fade-up">Skills</div>
+        <h2 class="sec-h2 fade-up">What I<br><em>Bring</em></h2>
+
+        <div class="sk-grid">
+          <div class="sk-col fade-up">
+            <div class="sk-cat">Accounting & Finance</div>
+            <div class="sk-chips">
+              <span>Financial Statements</span>
+              <span>Accounts Payable / Receivable</span>
+              <span>Corporation Tax</span>
+              <span>VAT Compliance</span>
+              <span>Supplier Payments</span>
+              <span>Ledger Reconciliation</span>
+              <span>Cash Flow Management</span>
+              <span>CFO Decision Support</span>
+            </div>
+          </div>
+          <div class="sk-col fade-up delay-1">
+            <div class="sk-cat">Software</div>
+            <div class="sk-chips">
+              <span>QuickBooks</span>
+              <span>Xero</span>
+              <span>Sage</span>
+              <span>FreshBooks</span>
+              <span>NetSuite</span>
+              <span>Microsoft Excel</span>
+              <span>Microsoft Office</span>
+            </div>
+          </div>
+          <div class="sk-col fade-up delay-2">
+            <div class="sk-cat">Languages</div>
+            <div class="sk-chips sk-langs">
+              <span class="sk-lang"><b>PL</b>Polish — Native</span>
+              <span class="sk-lang"><b>EN</b>English — Full Professional</span>
+              <span class="sk-lang"><b>FR</b>French — Professional</span>
+            </div>
+            <div class="sk-cat" style="margin-top:2rem">Interpersonal</div>
+            <div class="sk-chips">
+              <span>Analytical Thinking</span>
+              <span>Attention to Detail</span>
+              <span>Works Under Pressure</span>
+              <span>Cross-functional Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== TESTIMONIALS ======================== -->
+    <section class="sec sec-dark">
+      <div class="wrap">
+        <div class="sec-label sec-label-light fade-up">Testimonials</div>
+        <h2 class="sec-h2 sec-h2-light fade-up">What Others<br><em>Say</em></h2>
+
+        <div class="testi-row">
+          <div class="testi-card fade-up">
+            <p class="testi-q">"Jakub restructured our accounts receivable reconciliations and streamlined our supplier payment processes, resolving outstanding ledger discrepancies. His systematic analytical approach is highly recommended."</p>
+            <div class="testi-who">
+              <span class="testi-name">Kamil Wiśniewski</span>
+              <span class="testi-role">Managing Director, Accountancy Elite</span>
+            </div>
+          </div>
+          <div class="testi-card fade-up delay-1">
+            <p class="testi-q">"We consulted Jakub to structure our financial statement reporting and resolve monthly cash flow delays. His forecasting and budgeting sheets gave our board exactly the clarity they needed."</p>
+            <div class="testi-who">
+              <span class="testi-name">Dr. Sarah Jenkins</span>
+              <span class="testi-role">Finance Director, Devon Doctors Ltd</span>
+            </div>
+          </div>
+          <div class="testi-card fade-up delay-2">
+            <p class="testi-q">"Jakub assisted during our corporate finance summer audit cycles. His clean ledger schedules, analysis, and direct manager coordination resolved queries well ahead of schedule."</p>
+            <div class="testi-who">
+              <span class="testi-name">Marc Dupont</span>
+              <span class="testi-role">Finance Controller, NBCUniversal Media</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CONTACT ======================== -->
+    <section id="contact" class="sec">
+      <div class="wrap">
+        <div class="sec-label fade-up">Contact</div>
+
+        <div class="contact-grid">
+          <div class="contact-l fade-up">
+            <h2 class="sec-h2">Let's work<br><em>together.</em></h2>
+            <p class="contact-sub">Whether it's financial reporting, VAT compliance, or ongoing bookkeeping — I'd like to hear about your organisation.</p>
+            <div class="contact-info">
+              <a href="mailto:jpabis@gmail.com" class="ci-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <span>jpabis@gmail.com</span>
+              </a>
+              <a href="tel:53346417744" class="ci-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.09 1.18 2 2 0 012.08 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                <span>53 346 41744</span>
+              </a>
+              <div class="ci-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Bartlomieja z Bydgoszczy 16,<br>Krakow 85736, Poland</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form fade-up delay-1" id="contactForm">
+            <div class="cf-row">
+              <div class="cf-group">
+                <label for="cfName">Full Name</label>
+                <input type="text" id="cfName" placeholder="Your name" required>
+              </div>
+              <div class="cf-group">
+                <label for="cfEmail">Email</label>
+                <input type="email" id="cfEmail" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="cf-group">
+              <label for="cfSubject">Subject</label>
+              <input type="text" id="cfSubject" placeholder="How can I help?" required>
+            </div>
+            <div class="cf-group">
+              <label for="cfMsg">Message</label>
+              <textarea id="cfMsg" rows="5" placeholder="Tell me about your requirements..." required></textarea>
+            </div>
+            <button type="submit" class="btn-dark btn-full">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="foot">
+      <div class="wrap foot-inner">
+        <span class="foot-logo">Jakub<em>.</em>Pabis</span>
+        <span class="foot-copy">&copy; <span id="yr"></span> All rights reserved.</span>
+        <span class="foot-loc">Krakow, Poland</span>
+      </div>
+    </footer>
+
+    <!-- Toast container -->
+    <div id="toasts"></div>
+
+  </div><!-- #root -->
+
+  <script src="script.js"></script>
+</body>
+</html>
